@@ -1,0 +1,25 @@
+.hidden{ display: none; }
+#TB_window {
+	height: auto !important;
+	max-height: 100% !important;
+	top: 50% !important;
+	overflow: auto;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#tm_team_member_container{
+	display: none;
+}
+.tm_team_member_shortcode .popup{
+	color: #5A5A5A;
+	font-family: Georgia,Times New Roman,Times,serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+.tm_team_member_shortcode .field-container {
+    margin-bottom: 10px;
+}
+.tm_team_member_shortcode .label-desc {
+    padding-bottom: 5px;
+}

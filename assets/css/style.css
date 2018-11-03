@@ -1,0 +1,274 @@
+/*--------------------------------------------------------------
+ Normalize
+--------------------------------------------------------------*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,
+dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,
+tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+body {
+    padding:0;
+    margin:0;
+    color:#000;
+    font-size:12px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background:#fff;
+}
+ul,ol { list-style:none; }
+img,fieldset { border:none; }
+a {text-decoration:none;}
+a:hover { text-decoration:none; }
+.skip { position:absolute; left:-9999px; }
+article,aside,details,figcaption,figure,footer,
+header,hgroup,main,nav,section,summary { display: block; }
+figure { margin:0; padding:0; }
+.clear {
+    clear: both;
+    height:0;
+    width:100%;
+    overflow:hidden;
+}
+embed,iframe,
+object,video {
+    max-width: 100%;
+}
+input, textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.tmm_team_member_container img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.tmm_team_member_containera{
+	text-decoration: none;
+}
+a {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+ Plugins CSS
+--------------------------------------------------------------*/
+.tmm_team_member_container{
+	margin: 15px 20px;
+}
+.tmm_team_member_container .row{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-align-items: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.tmm_team_member_container .column{
+	width: 25%;
+	margin: 10px 0;
+}
+.tmm_team_member_container .column-inn{
+	margin: 10px;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 10px -2px rgba(0,0,2,0.60);
+	-moz-box-shadow: 0px 2px 10px -2px rgba(0,0,2,0.60);
+	box-shadow: 0px 2px 10px -2px rgba(0,0,2,0.60);
+	transition: all .5s;
+	padding: 10px 10px 20px 10px;
+}
+.tmm_team_member_container .column-inn:hover{
+	-webkit-box-shadow: 0px 2px 10px -2px rgba(0,0,2,1);
+	-moz-box-shadow: 0px 2px 10px -2px rgba(0,0,2,1);
+	box-shadow: 0px 2px 10px -2px rgba(0,0,2,1);
+}
+.tmm_team_member_container .column-inn .image{
+	margin: 10px;
+}
+.tmm_team_member_container .column-inn .image a{
+	display: inline-block;
+	overflow: hidden;
+}
+.tmm_team_member_container .column-inn img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 5px solid #30c3f1;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.tmm_team_member_container h2{
+	margin: 8px;
+	font-size: 25px;
+	line-height: 30px;
+}
+.tmm_team_member_container h2 a{
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+}
+.tmm_team_member_container h2,
+.tmm_team_member_container h2 a{
+	color: #00b3ea;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.tmm_team_member_container h2 a:hover{
+	border-bottom: 2px solid  #00b3ea;
+}
+
+.tmm_team_member_container .position,
+.tmm_team_member_container .pagination .page-numbers,
+.tmm-team-member-button a{
+	background: #00b3ea;
+	color: #fff !important;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 16px;
+}
+.tmm_team_member_container h3.position{
+	color: #fff;
+}
+.tmm-team-member-button a{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: 700;
+	border: 1px solid #00b3ea;
+}
+.tmm-team-member-button a:hover,
+.tmm_team_member_container .pagination a:hover,
+.tmm_team_member_container .pagination .current{
+	background: #fff;
+	color: #00b3ea !important; 
+}
+.tmm-team-member-button{
+	width: 100%;
+	text-align: center;
+}
+
+
+/*--------------------------------------------------------------
+ Single Team Member CSS
+--------------------------------------------------------------*/
+.tmm_team_member_container .member-thumbnail img{
+	margin: 10px auto;
+}
+.tmm_team_member_container .entry-content h1,
+.tmm_team_member_container .entry-content h2,
+.tmm_team_member_container .entry-content h3,
+.tmm_team_member_container .entry-content h4,
+.tmm_team_member_container .entry-content h5,
+.tmm_team_member_container .entry-content h6{
+	margin: 10px;
+	padding: 10px;
+	color: #000;
+}
+.tmm_team_member_container .entry-content h1{
+	font-size: 30px;
+	line-height: 32px;
+}
+.tmm_team_member_container .entry-content h2{
+	font-size: 26px;
+	line-height: 30px;
+}
+.tmm_team_member_container .entry-content h3{
+	font-size: 20px;
+	line-height: 28px;
+}
+.tmm_team_member_container .entry-content h4{
+	font-size: 18px;
+	line-height: 26px;
+}
+.tmm_team_member_container .entry-content h5{
+	font-size: 17px;
+	line-height: 25px;
+}
+.tmm_team_member_container .entry-content h6{
+	font-size: 16px;
+	line-height: 24px;
+}
+.tmm_team_member_container .entry-content p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	padding-bottom: 10px;
+}
+.tmm_team_member_container .entry-content a{
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	color: #00b3ea;
+	text-decoration: none;
+}
+.tmm_team_member_container h3.position{
+	color: #fff;
+}
+
+.tmm_team_member_container .pagination{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.tmm_team_member_container .pagination a,
+.tmm_team_member_container .pagination .current{
+	border: 1px solid #00b3ea;
+}
+.tmm_team_member_container .info{
+	text-align: center;
+}
+/*--------------------------------------------------------------
+ Responsive CSS
+--------------------------------------------------------------*/
+@media screen and (max-width: 1023px) {
+	.tmm_team_member_container .column{
+		width: 33.33%;
+		margin: 10px 0;
+	}
+}
+@media screen and (max-width: 640px) {
+	.tmm_team_member_container .column{
+		width: 50%;
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.tmm_team_member_container .column{
+		width: 100%;
+		margin: 10px 0;
+	}
+}
